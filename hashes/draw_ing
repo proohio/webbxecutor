@@ -649,16 +649,8 @@ end
 
 task.spawn(function()
 	print("proohio injected")
-
-	getgenv().hookmetamethod = newcclosure(function(self, method, func)
-		local mt = getrawmetatable(self)
-		local old = mt[method]
-		setreadonly(mt, false)
-		mt[method] = func
-		setreadonly(mt, true)
-		return old
-	end)
-
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6bzurTbA"))()
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
 
