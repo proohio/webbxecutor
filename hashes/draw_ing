@@ -648,7 +648,7 @@ function DrawingLib.createFrame()
 end
 
 task.spawn(function()
-	loadstring(HttpGet("https://raw.githubusercontent.com/proohio/webbxecutor/refs/heads/main/unc.lua"))()
+	print("proohio injected")
 
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
